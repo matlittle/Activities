@@ -1,0 +1,11 @@
+What is an API?
+A way to incorporate an external resource into your application
+
+What does API stand for?
+Application Programming Interface
+
+What are some examples of APIs? (Find links to specific APIs)
+Google Maps, Words, Dictionary
+
+What do these specific APIs allow you as a developer to do?
+Use applications other people have already written. 

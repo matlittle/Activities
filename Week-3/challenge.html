@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		var a = [[0,1],[1,2]];
+		var b = [[3,1],[1,0]];
+
+		var dotProd = [[],[]];
+
+		for(i=0; i<a.length; i++){
+			for(j=0; j<a[i].length; j++){
+				for(k=0; k<b.length; k++){
+					for(l=0; l<b[k].length; l++){
+						if(dotProd[i][k] === undefined) {
+							dotProd[i][k] = 0;
+						}
+						dotProd[i][k] = dotProd[i][k] + (a[j][i] * b[k][l]);
+					}
+				}
+			}
+		}
+		
+		console.log(dotProd);
+
+	</script>
+
+</body>
+</html>

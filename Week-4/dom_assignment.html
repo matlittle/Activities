@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<div id="empty-div"></div>
+
+	<script type="text/javascript">
+		
+		var targetDiv = document.getElementById("empty-div");
+
+		targetDiv.innerHTML = "Hello friends";
+
+		var newDiv = document.createElement("div");
+
+		newDiv.innerHTML = "A new div!";
+
+		targetDiv.appendChild(newDiv);
+
+	</script>
+</body>
+</html>

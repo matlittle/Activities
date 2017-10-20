@@ -1,0 +1,40 @@
+Card questions: 
+
+find number of cards per suit
+
+once we have the suit missing one card, 
+	find missing card from that suit.
+	Do so by first
+
+
+	possibleValues = ["ace", 2, 3, 4, 5, 6, 7, 8, 9, 10, "jack", "queen", "king"]
+
+
+	card = []
+	
+
+
+Bash Questions:
+
+What is the command to create a file? -> touch
+
+What is the command to create a folder? -> mkdir
+
+What is the command to delete a file? -> rm
+
+What is the command to delete a folder? -> rm -r
+
+What is the command to move a file? -> mv origin/path destination/path
+
+What is the command to copy a file? -> cp
+
+What is the command to go up one directory? -> cd ..
+
+What is the command to list the files in a directory? -> ls 
+
+What is the command to see what directory you are currently in? -> pwd
+
+What would typing history do? Display list of last commands run
+
+
+

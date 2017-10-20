@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Favorite Movies</title>
+  <style type="text/css">
+    button,
+    div,
+    form,
+    input {
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Movie Search</h1>
+
+    <!-- Movies will get dumped here -->
+    <div id="movies-view"></div>
+
+    <form id="movie-form">
+      <label for="movie-input">Add a Movie Bro</label>
+      <input type="text" id="movie-input"><br>
+
+      <!-- Button triggers new movie to be added -->
+      <input id="add-movie" type="button" value="Add a Movie Bro">
+
+      <div id="movie-details"></div>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      // Initial array of movies
+      var movies = ["The Matrix", "The Notebook", "Mr. Nobody", "The Lion King"];
+
+      // Function for displaying movie data
+      function renderButtons() {
+
+        $("#movies-view").html("");
+
+        movies.forEach(function(movie) {
+          $("#movies-view").append($("<button>").addClass("my-movies").text(movie));
+        });
+
+      }
+
+      // This function handles events where one button is clicked
+      $("#add-movie").on("click", function() {
+
+        var inputMovie = $("#movie-input").val();
+
+        movies.push(inputMovie);
+
+        renderButtons();
+
+      });
+
+      // Calling the renderButtons function to display the initial list of movies
+      renderButtons();
+
+
+
+      $(".my-movies").click(function() {
+        movieDetails(this);
+      })
+
+      function movieDetails(btn) {
+        var movie = $(btn).text();
+
+        var queryURL = "https://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=40e9cece";
+
+        $.get(queryURL, function(response) {
+          $("#movie-details").text(JSON.stringify(response));
+        });
+
+      }
+
+
+    </script>
+  </div>
+</body>
+
+</html>

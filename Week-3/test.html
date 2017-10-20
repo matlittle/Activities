@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		function guessWhat(n, b = 10,  str = '') {
+			while(n > 0) {
+				str = (n % b) + str;
+				n = Math.floor(n / b);
+			}
+
+			return str;
+		}
+
+		var inputNum = parseInt(prompt("Give me a positive, whole number"));
+		var inputBase = parseInt(prompt("Give me the base you'd like to convert that number to"));
+
+		alert(inputNum + " in base " + inputBase + " is " + guessWhat(inputNum, inputBase));
+
+	</script>
+
+</body>
+</html>
