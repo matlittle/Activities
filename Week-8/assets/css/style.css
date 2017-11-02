@@ -1,0 +1,10 @@
+.player-side {
+	display: inline-block;
+	width: 40%;
+	margin: 10px;
+}
+
+.player {
+	width: 80%;
+	height: 300px;
+}
