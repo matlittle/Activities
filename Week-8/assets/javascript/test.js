@@ -50,6 +50,8 @@ $("#player2-btn").click(function() {
 });
 
 
+function setPlayer(num, )
+
 function listenForCodeUpdates() {
 	db.ref(`curr/${otherPlayer}/code`).on("value", function(data) {
 		updateOtherPlayer(data.val());
@@ -60,7 +62,7 @@ function startInterval() {
 	var pushInterval = setInterval(function() {
 		var currStr = $(".active").val();
 		pushChanges(currStr);
-	}, 10);
+	}, 100);
 }
 
 function pushChanges(str) {
