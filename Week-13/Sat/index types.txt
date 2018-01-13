@@ -1,0 +1,8 @@
+b+ Tree: avoid repeating data
+
+Dense Tree: Pointer points to every record e.g. Key -> Record
+Sparse Tree: pointer points to every block e.g. Key -> Block
+
+Bitmap: uses bitwise ops
+
+Reverse Indexes: good for things in order

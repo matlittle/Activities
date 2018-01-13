@@ -1,0 +1,28 @@
+reserve.html - reserve
+index.html
+tables.html - tables
+
+
+// Homepage
+GET - "/"
+Returns homepage
+
+GET - "/reserve"
+Returns html page to make reservation
+
+
+GET - "/tables"
+Returns html page to view reservations
+
+
+GET - "/api/tables"
+Returns json object of current and waiting tables
+
+
+POST - "/api/reserve"
+Post reservation object
+
+
+DELETE - "/api/delete/:id"
+Deletes the reservation with the passed id parameter
+
