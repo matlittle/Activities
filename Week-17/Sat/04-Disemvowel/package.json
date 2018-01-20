@@ -1,0 +1,17 @@
+{
+  "name": "04-disemvowel",
+  "version": "1.0.0",
+  "description": "Test test",
+  "main": "disemvowel.js",
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Mat Little",
+  "license": "MIT"
+}
