@@ -1,0 +1,27 @@
+{
+  "name": "10-test-drive-multiply",
+  "version": "1.0.0",
+  "description": "In this activity we will write tests for the `multiply` function we worked with previously, and use Karma to watch our code as it is changed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "chai": "^3.5.0",
+    "karma": "^1.3.0",
+    "karma-browserify": "^5.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-commonjs": "^1.0.0",
+    "karma-mocha": "^1.1.1",
+    "karma-mocha-reporter": "^2.2.1",
+    "karma-requirejs": "^1.1.0",
+    "mocha": "^3.2.0",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "requirejs": "^2.3.5"
+  }
+}
