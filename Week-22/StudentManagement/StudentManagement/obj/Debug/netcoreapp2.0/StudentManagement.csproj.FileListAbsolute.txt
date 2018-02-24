@@ -1,0 +1,11 @@
+C:\Users\matli\GitHub\Activities\Week-22\StudentManagement\StudentManagement\bin\Debug\netcoreapp2.0\StudentManagement.deps.json
+C:\Users\matli\GitHub\Activities\Week-22\StudentManagement\StudentManagement\bin\Debug\netcoreapp2.0\StudentManagement.runtimeconfig.json
+C:\Users\matli\GitHub\Activities\Week-22\StudentManagement\StudentManagement\bin\Debug\netcoreapp2.0\StudentManagement.runtimeconfig.dev.json
+C:\Users\matli\GitHub\Activities\Week-22\StudentManagement\StudentManagement\bin\Debug\netcoreapp2.0\StudentManagement.dll
+C:\Users\matli\GitHub\Activities\Week-22\StudentManagement\StudentManagement\bin\Debug\netcoreapp2.0\StudentManagement.pdb
+C:\Users\matli\GitHub\Activities\Week-22\StudentManagement\StudentManagement\obj\Debug\netcoreapp2.0\StudentManagement.csprojResolveAssemblyReference.cache
+C:\Users\matli\GitHub\Activities\Week-22\StudentManagement\StudentManagement\obj\Debug\netcoreapp2.0\StudentManagement.csproj.CoreCompileInputs.cache
+C:\Users\matli\GitHub\Activities\Week-22\StudentManagement\StudentManagement\obj\Debug\netcoreapp2.0\StudentManagement.AssemblyInfoInputs.cache
+C:\Users\matli\GitHub\Activities\Week-22\StudentManagement\StudentManagement\obj\Debug\netcoreapp2.0\StudentManagement.AssemblyInfo.cs
+C:\Users\matli\GitHub\Activities\Week-22\StudentManagement\StudentManagement\obj\Debug\netcoreapp2.0\StudentManagement.dll
+C:\Users\matli\GitHub\Activities\Week-22\StudentManagement\StudentManagement\obj\Debug\netcoreapp2.0\StudentManagement.pdb
